@@ -19,7 +19,7 @@ function setup() {
   canvas = createCanvas(1200,600);
   engine = Engine.create();
   world = engine.world;
-  angle=PI/4;
+  angle=-PI;
 
   tower = new Tower(150, 350, 160, 310);
   cannon=new Cannon(180, 110, 110, 50,angle);
